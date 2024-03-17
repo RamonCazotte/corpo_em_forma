@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import TestimonialsCarousel from './TestimonialsCarousel';
-
-
 import './Home.css';
 import PricingSection from './PricingSection';
 
@@ -10,8 +9,9 @@ function Home() {
     <div className="home">
 
       <div className="fixed-buttons">
-        <button className="btn">Cadastrar</button>
-        <button className="btn">Entrar</button>
+        <Link to="/Cadastro" className="btn">Cadastrar</Link>
+        <Link to="/Login" className="btn">Login</Link>
+
       </div>
 
 

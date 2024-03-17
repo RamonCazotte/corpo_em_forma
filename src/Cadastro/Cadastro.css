@@ -1,0 +1,51 @@
+.cadastro-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Faz com que o formulário fique centralizado verticalmente */
+    background-color: rgb(241, 239, 239); /* Fundo preto */
+  }
+  
+  .cadastro-form {
+    padding: 20px;
+    background: #fff; /* Fundo branco para o formulário */
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 100%;
+    max-width: 400px; /* Largura máxima do formulário */
+  }
+  
+  .cadastro-title {
+    color: #ff0000; /* Título vermelho */
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    display: block;
+    text-align: left;
+    color: black;
+  }
+  
+  .form-input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd; /* Bordas sutis para os campos de entrada */
+  }
+  
+  .submit-btn {
+    background-color: #ff0000; /* Botão vermelho */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .submit-btn:hover {
+    background-color: #e60000; /* Vermelho mais escuro para hover */
+  }
+  

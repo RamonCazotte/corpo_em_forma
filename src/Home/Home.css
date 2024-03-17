@@ -105,6 +105,7 @@
     border: none; /* Remove a borda padrão do botão */
     cursor: pointer; /* Muda o cursor para indicar que é clicável */
     transition: background-color 0.3s; /* Suaviza a transição de cores */
+    text-decoration: none;
   }
   
   .btn:hover {

@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
 import Home from './Home/Home';
-import PlanoPage from './PlanoPage';
+import Cadastro from './Cadastro/Cadastro';
+import Login from './Login/Login';
 import {
   BrowserRouter as Router,
   Routes,
@@ -16,9 +17,11 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Routes>
+      <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/planos" element={<PlanoPage />} />
+          <Route path="/Cadastro" element={<Cadastro />} /> 
+          <Route path="/Login" element={<Login />} /> 
+
         </Routes>
       </div>
     </Router>
