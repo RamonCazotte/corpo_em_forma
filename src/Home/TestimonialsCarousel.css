@@ -1,0 +1,35 @@
+.testimonials-carousel {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #050505; /* Fundo branco para o carrossel */
+    color: rgb(248, 247, 247); /* Texto preto */
+  }
+  
+  .testimonial {
+    margin: 20px 0;
+    font-style: italic;
+  }
+  
+  .testimonial-author {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .carousel-controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .carousel-controls button {
+    background-color: #ff0000; /* Botões vermelhos */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .carousel-controls button:hover {
+    background-color: #e60000;
+  }
+  

@@ -1,0 +1,133 @@
+.home {
+    background-color: white; /* Fundo branco para toda a página */
+    color: black; /* Texto preto por padrão */
+  }
+  
+ 
+
+
+.slogan {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+
+
+  .banner {
+    background-image: url('https://cdn.pensador.com/img/imagens/le/ge/legendas_para_fotos_na_academia_f_l.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  }
+
+  .Boas-vindas{
+    position: relative; /* Para garantir que fique acima do pseudo-elemento */
+    color: white; /* Mudar conforme necessário para contraste */
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.7); /* Sombra preta para texto */
+    font-size: 1.5rem; /* Ou o tamanho que você preferir */
+    line-height: 1.4; /* Espaçamento entre linhas para legibilidade */
+
+  }
+  
+  .slogan-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    position: relative; /* Para posicionamento absoluto do pseudo-elemento */
+  }
+  
+  .slogan-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5); /* Fundo semitransparente preto como exemplo */
+    z-index: -1; /* Garante que o fundo fique atrás do texto */
+  }
+  
+  .slogan {
+    position: relative; /* Para garantir que fique acima do pseudo-elemento */
+    color: white; /* Mudar conforme necessário para contraste */
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.7); /* Sombra preta para texto */
+    font-size: 1.5rem; /* Ou o tamanho que você preferir */
+    line-height: 1.4; /* Espaçamento entre linhas para legibilidade */
+  }
+
+
+  .sobre-nos {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .sobre-nos h2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .sobre-nos p {
+    margin-bottom: 2rem;
+  }
+  
+  .beneficios {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .beneficio {
+    width: 30%; /* Largura de cada coluna */
+  }
+  
+  .beneficio h3 {
+    color: red; /* Título do benefício em vermelho */
+  }
+
+  .fixed-buttons {
+    position: fixed; /* Fixa os botões na tela */
+    top: 20px; /* Distância do topo da tela */
+    right: 20px; /* Distância da direita da tela */
+    display: flex;
+    flex-direction: column; /* Empilha os botões verticalmente */
+    z-index: 100; /* Garante que os botões fiquem acima de outros elementos */
+  }
+  
+  .btn {
+    padding: 10px 20px; /* Padding para os botões */
+    margin-bottom: 10px; /* Espaço entre os botões */
+    background-color: #ff0000; /* Cor de fundo para os botões */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda padrão do botão */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    transition: background-color 0.3s; /* Suaviza a transição de cores */
+  }
+  
+  .btn:hover {
+    background-color: #e60000; /* Escurece o botão quando o mouse passa por cima */
+  }
+  
+  /* Estilos adicionais para .home, .banner, .sobre-nos... */
+  
+  /* ... restante do código ... */
+  
+
+
+  /* Você pode querer adicionar media queries para lidar com a responsividade */
+  @media (max-width: 768px) {
+    .beneficios {
+      flex-direction: column;
+    }
+  
+    .beneficio {
+      width: 100%; /* Largura de cada
+      /* Largura de cada benefício ajustada para 100% em telas menores */
+    margin-bottom: 20px; /* Espaço entre os benefícios para clareza */
+  }
+}
+
+/* Se necessário, ajustes adicionais de responsividade e formatação */

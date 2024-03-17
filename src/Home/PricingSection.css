@@ -1,0 +1,42 @@
+/* PricingSection.css */
+.pricing-section {
+    background-color: #ffffff; /* Fundo preto */
+    color: #000000; /* Texto branco */
+    text-align: center;
+    padding: 40px;
+}
+
+.pricing-title {
+    margin-bottom: 50px;
+}
+
+.plans-container {
+    display: flex;
+    justify-content: center;
+}
+
+.plan {
+    margin: 0 20px;
+    border: 1px solid #fff; /* Bordas brancas */
+    padding: 20px;
+}
+
+.price {
+    display: block;
+    margin: 20px 0;
+    font-size: 1.5rem;
+}
+
+.plan-button {
+    border: none;
+    background-color: #ff0000; /* Botão vermelho */
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.plan-button:hover {
+    background-color: #e60000; /* Vermelho escuro no hover */
+}
+
+/* Adicione media queries conforme necessário */

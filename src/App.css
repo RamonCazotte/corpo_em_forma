@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+  color: white; /* Texto branco para contraste */
+}
+
+body, html {
+  background-color: #fff;
+  color: #000;
+  font-family: 'Arial', sans-serif;
+}
+
+.App-header {
+  background-color: #282c34; /* Mantemos esse fundo escuro, mas você pode alterar para preto */
+  color: #ff0000; /* Alteramos a cor do texto para vermelho */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
