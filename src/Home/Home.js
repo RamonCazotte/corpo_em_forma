@@ -11,6 +11,7 @@ function Home() {
       <div className="fixed-buttons">
         <Link to="/Cadastro" className="btn">Cadastrar</Link>
         <Link to="/Login" className="btn">Login</Link>
+        <Link to="/Fichas" className="btn">Ficha</Link>
 
       </div>
 

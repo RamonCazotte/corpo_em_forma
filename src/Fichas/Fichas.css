@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.Fichas {
+  text-align: center;
+  color: #000000;
+}
+
+.ExerciseItem {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.ExerciseItem {
+  display: flex; /* Torna os elementos filhos flexíveis */
+  align-items: center; /* Alinha os itens verticalmente ao centro */
+  gap: 100px; /* Adiciona um espaçamento entre a imagem e os detalhes */
+}
+
+.ExerciseItem img {
+  width: 500px; /* Defina a largura da imagem conforme necessário */
+  height: auto; /* Mantenha a proporção da imagem */
+}
